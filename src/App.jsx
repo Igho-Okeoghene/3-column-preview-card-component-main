@@ -1,4 +1,7 @@
 import Card from "./components/Card";
+import sedanIcon from "/images/icon-sedans.svg";
+import suvIcon from "/images/icon-suvs.svg";
+import luxuryIcon from "/images/icon-luxury.svg";
 
 function App() {
   return (
@@ -7,19 +10,19 @@ function App() {
         <Card
           title="Sedans"
           description="Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city or on your next road trip."
-          image="/images/icon-sedans.svg"
+          image={sedanIcon}
           color="gold"
         />
         <Card
           title="SUVs"
           description="Take an SUV for its spacious interior, power, and versatility. Perfect for your next family vacation and off-road adventures."
-          image="/images/icon-suvs.svg"
+          image={suvIcon}
           color="cyan"
         />
         <Card
           title="Luxury"
           description="Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury rental and arrive in style."
-          image="/images/icon-luxury.svg"
+          image={luxuryIcon}
           color="green"
         />
       </div>
