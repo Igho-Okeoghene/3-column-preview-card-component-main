@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+  /* Custom Colors */
+  --color-gold: hsl(31, 77%, 52%);
+  --color-cyan: hsl(184, 100%, 22%);
+
+  /* Overrides the default Tailwind green scale with your specific hsl value */
+  --color-green: hsl(179, 100%, 13%);
+
+  --color-transparent-white: hsla(0, 0%, 100%, 0.75);
+  --color-bg-gray: hsl(0, 0%, 95%);
+
+  /* Custom Font Family */
+  --font-sans: "Lexend Deca", system-ui, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Lexend Deca", system-ui, sans-serif;
+  font-size: 15px;
+}

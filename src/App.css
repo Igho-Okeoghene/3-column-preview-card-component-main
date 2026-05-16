@@ -1,0 +1,62 @@
+
+
+.container {
+  margin: 80px 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.card {
+  width: 90%;
+  max-width: 250px;
+  margin: 0 auto;
+  padding: 40px 30px;
+}
+.firstCard {
+  border-radius: 10px 10px 0 0;
+}
+.thirdCard {
+  border-radius: 0 0 10px 10px;
+}
+.card h1 {
+  color: var(--transparentWhite);
+  text-transform: uppercase;
+}
+.card p {
+  color: var(--gray);
+  width: 80%;
+  line-height: 1.5;
+}
+#btn {
+  background-color: var(--gray);
+  padding: 15px 30px;
+  text-align: center;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+}
+#btn:hover {
+  border: var(--transparentWhite) 1px solid;
+}
+.firstCard #btn {
+  color: var(--gold);
+}
+.secondCard #btn {
+  color: var(--cyan);
+}
+.thirdCard #btn {
+  color: var(--green);
+}
+.firstCard #btn:hover {
+  background-color: var(--gold);
+  color: var(--transparentWhite);
+}
+.secondCard #btn:hover {
+  background-color: var(--cyan);
+  color: var(--transparentWhite);
+}
+.thirdCard #btn:hover {
+  background-color: var(--green);
+  color: var(--transparentWhite);
+}
