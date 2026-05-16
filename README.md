@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/Igho-Okeoghene/3-column-preview-card-component-main](https://github.com/Igho-Okeoghene/3-column-preview-card-component-main)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Igho-Okeoghene/3-column-preview-card-component-main](https://github.com/Igho-Okeoghene/3-column-preview-card-component-main)
+- Live Site URL: [preview-card-component-react.netlify.app/](https://preview-card-component-react.netlify.app/)
 
 ## My process
 
